@@ -113,11 +113,16 @@ span {
     color: rgb(56 121 255);
     background: rgb(255 255 255);
 }
-
+.menu_btn{
+	display:none!important;
+}
 @media(max-width:1200px) {
     .my_navigation {
         display: none;
 		
+    }
+	.menu_btn{
+	display:block!important;
     }
     .col-md-3 {
         width: 50%;
